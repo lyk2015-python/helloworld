@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>First Django Example</title>
+</head>
+<body>
+	<h3>LYK Blog'u</h3>
+	{% for post in posts %}
+		{{ post.title }}
+		<hr>
+	{% endfor %}
+</body>
+</html>
